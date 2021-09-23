@@ -13,7 +13,7 @@ int main()
 	x0 = 0;
 	y0 = 0;
 
-	if ((x - x0) * (x - x0) + (y - y0) * (y - y0) <= R * R || y >= -R && y <= x)
+	if ((x - x0) * (x - x0) + (y - y0) * (y - y0) >= R * R || y >= -R && y <= x)
 		cout << "yes" << endl;
 	else
 		cout << "no" << endl;
